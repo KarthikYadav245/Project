@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+   width: 100%; 
+   height: 80vh;
+   background-image:url(./projectimages/ocean-bg.jpg);
+ background-position: center;
+   background-size: cover;
+   position: relative; 
+}
+#one{
+    position: absolute;
+    width: 100%;
+}
+.head1{
+    margin-top: 11%;
+    margin-left:42%;
+    font-size: 4rem;
+    color: azure;
+}
+#two{
+    margin-left: 39%;
+    margin-top: 2%;
+    width: 400px;
+}
+#two>p{
+    font-size: larger;
+    text-align-last: center;
+    color: azure;
+}
+#button{
+    background-color: white;
+    color: skyblue;
+    width: 120px;
+    height: 40px;
+    margin-left: 29%;
+    margin-top: 8%;
+}
+/* second div style */
+.div2{
+    margin-top: 50px;
+   
+    width: 100%;
+    height: 30vh;
+}
+#par1{
+    font-size: 25px;
+    margin-left: 41%;
+    color: skyblue;
+}
+#par2{
+    margin-left: 32%;
+    margin-top: 3%;
+    color:rgb(161, 143, 121);
+}
+#par3{
+    margin-left:35% ;
+    margin-top: 1%;
+    color:rgb(161, 143, 121);
+}
+#par4{
+    margin-top: 1%;
+    margin-left: 43%;
+    color:rgb(161, 143, 121);
+}
+#radio{
+margin-left: 47%;
+
+}
+#ir1{
+  margin-left:10px ;
+}
+#ir2{
+  margin-left: 10px;
+}
+
+/* third div-------------------------- */
+.three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+  }
+ 
+  .head2,.head3{
+    text-align: center;
+    color: skyblue;
+    margin-top: 18%;
+
+  }
+  .inside{
+    margin-top: 2%;
+    width: 350px;
+    height: 300px;
+    margin-left: 33%;
+  }
+  .inside>p{
+    color: skyblue;
+  }
+  .inside2>p{
+    color: skyblue;
+  }
+  .btn{
+    background-color: white;
+    margin-top: 3%;
+    width: 100px;
+    height: 30px;
+    color:skyblue;
+    border-radius: 15px;
+  }
+  .inside2{
+    margin-top: 2%;
+    width: 350px;
+    height: 300px;
+    margin-left: 33%;
+  }
+ 
+  /* fourth part--------- */
+  .five{
+    width: 100%;
+    background-color: rgb(96, 202, 240);
+    height: 100%;
+
+  }
+  #p1{
+  padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+  }
+  #p2{
+    text-align: center;
+    text-align-last: center;
+    margin-top: 1%;
+    font-size: large;
+    color: rgb(197, 235, 235);
+  }
+  .div6{
+    display: flex;
+  
+  }
+  .card{
+    width: 300px;
+    height: 270px;
+    border: 2px solid white;
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:lightblue;
+  }
+ 
+  #cloud{
+     margin-left: 40%;
+     margin-top: 10px;
+   
+  }
+ .m{
+  margin-left: 70px;
+ }
+ 
+  #trade{
+    width: 300px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 2px solid white;
+    margin-top: 30px;
+    background-color: lightblue;
+ 
+  }
+  #trade>h3{
+    margin-top: 40px;
+    margin-left: 70px;
+    color: #232121;
+  }
+  .trade{
+    margin-left: 45%;
+    margin-top: 20px;
+  }
+  #member{
+    width: 300px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 2px solid white;
+    margin-top: 30px;
+    background-color: lightblue;
+ 
+  }
+  #member>h3{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: #232121;
+  }
+  .member{
+    margin-left: 45%;
+    margin-top: 20px;
+  }
+  #global{
+    width: 300px;
+    height: 270px;
+    margin-left: 20px;
+    border: 2px solid white;
+    margin-top: 30px;
+    background-color:lightblue;
+  
+  }
+  #global>h3{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: #232121;
+  }
+  .global{
+    margin-left: 42%;
+    margin-top: 40px;
+  }
+  #var0,#var,#var1{
+    margin-left: 70px;
+    color: #605d5d;
+  }
+  #var2{
+    margin-left: 70px;
+    color: #605d5d;
+  }
+ 
+  /* last part---------------------style */
+  .footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  #last1{
+    margin-left: 45%;
+    padding-top: 50px;
+  }
+  #last2{
+    margin-top: 20px;
+    text-align-last: center;
+  }
+  #ip1{
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 300px;
+    border-radius: 20px ;
+    height: 40px;
+    padding: 20px;
+    border: 2px solid lightblue;
+   
+  }
+
+
+  #ip2{
+    width: 300px;
+    border-radius: 20px ;
+    height: 40px;
+    margin-left: 30px;
+    padding: 20px;
+    border: 2px solid lightblue;
+   
+  }
+  #ip3{
+    width: 640px;
+    border-radius: 20px ;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid lightblue;
+   
+  }
+  #textarea{
+    width: 640px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    margin-left:100px ;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  #btn2{
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    margin-left: 650px;
+    background-color: white;
+    color: lightblue;
+  }
+ #foot{
+  margin-top: -340px;
+  margin-left: 800px;
+ }
+ #local{
+  margin-top: 5px;
+  margin-left:800px;
+  line-height: 25px;
+ }
+ #ad{
+  margin-left: 800px;
+  line-height: 25px;
+ }
+ #email{
+  margin-left: 800px;
+  margin-top:20px ;
+  color:rgb(41, 40, 40);
+ }
+ #mail{
+  margin-top: -17px;
+  margin-left: 845px;
+  color: lightskyblue;
+ }
+ #cont{
+  margin-left: 800px;
+  margin-top:20px ;
+ }
+ #num{
+  margin-top: -17px;
+  margin-left: 845px;
+  color: lightskyblue;
+ }
+ .icons{
+  display: flex;
+  margin-left: 800px;
+  margin-top: 20px;
+ }
+ i{
+  display: inline-block;
+ }
+ #fb{
+  font-size: 40px;
+ }
+ #go{
+  margin-left:10px ;
+  font-size: 40px;
+ }
+ #tw{
+  margin-left:10px ;
+  font-size: 40px;
+  border-radius: 50%;
+ }
+ #li{
+  margin-left:10px ;
+  font-size: 40px;
+  border-radius: 50%;
+ }
+
+  
